@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "3a249918-d527-4282-88aa-87ad6f5bbdd6",
+		"name": "Collection Reto-Tecnico",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13220914"
+	},
+	"item": [
+		{
+			"name": "CONSUMO DE URI BASE",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "OBTENER CLIENTE POR PARAMETRO RUC",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "REGISTER CLIENT",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8005/clientes/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8005",
+					"path": [
+						"clientes",
+						"register"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
